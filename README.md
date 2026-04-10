@@ -1,37 +1,44 @@
-The Brogram: Workout Tracker
-A simple, effective, and interactive workout tracker built with React and Vite. This app provides a structured 30-day training program based on the classic "Bro Split" (Push → Pull → Legs → Repeat), helping you get fit, strong, and consistent with your workouts.
-Features
-30-Day Bro Split Program: Rotating Push, Pull, and Leg days with detailed warmups and workouts.
-Progress Tracking: Mark workouts as complete and save your max weights for each exercise.
-Local Storage: Your progress and weights are saved in your browser, so you never lose your data.
-Exercise Descriptions: Click the help icon next to any exercise for a detailed description and tips.
-Motivational Guidance: Built-in rules and tips to maximize your results and keep you on track.
-The Rules
-To get the most out of this program, you MUST follow these 3 simple rules:
-Rest: Take rest days as needed.
-Reps: Every rep is a pause rep, following a 2-2-2 tempo (2 seconds down, 2 seconds pause, 2 seconds up).
-Weight: Use the maximum weight that allows you to maintain good form.
-The first and second set should be at 75% and 85% of your working weight used for the last two reps.
-The Training Plan
-This program uses the Bro Split structure:
-> Push → Pull → Legs → Repeat
-Complete all workouts in order and track your progress along the way.
->
-> Getting Started
-Prerequisites
-Node.js (v16 or higher recommended)
-npm (comes with Node.js)
-Installation
+Here's the description in plain text format you can easily copy:
 
-1. git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   Install dependencies:
-2. npm install
+---
 
-Project Structure
-src/Components/ – React components (Grid, Hero, Layout, Modal, WorkoutCard)
-src/utils/ – Workout program data and exercise descriptions
-src/fanta.css & src/index.css – Styling
-public/ – Static assets
-Credits
-Built by Parth T.
+**Workout Tracker**
+
+A modern, interactive workout tracking application built with React and Vite. This app helps users follow a structured Push/Pull/Legs (PPL) training program by providing detailed workout plans, exercise tracking, and progress logging.
+
+**Features**
+
+Structured Training Program: Pre-built PPL workout splits with warm-up and main workout exercises
+
+Exercise Tracking: Log sets, reps, and maximum weights for each exercise
+
+Progressive Unlocking: Workouts are securely locked until prior workouts are completed, ensuring program adherence
+
+Local Persistence: Automatically saves completed workouts and weight records to browser localStorage
+
+Exercise Descriptions: In-app modal system with detailed exercise information and tips
+
+Responsive Grid Layout: Clean, organized workout card interface for easy navigation
+
+Workout Types: Color-coded and icon-organized Push, Pull, and Legs workout days
+
+**Tech Stack**
+
+Frontend: React 19
+
+Build Tool: Vite 6
+
+Styling: Custom CSS
+
+Storage: Browser localStorage
+
+Linting: ESLint
+
+**Getting Started**
+
+npm install
+npm run dev      (Start development server)
+npm run build    (Build for production)
+npm run lint     (Run linter)
+
+---
