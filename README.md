@@ -1,6 +1,4 @@
-Here's the description in plain text format you can easily copy:
 
----
 
 **Workout Tracker**
 
